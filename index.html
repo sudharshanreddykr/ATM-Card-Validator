@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/card.css">
+</head>
+
+<body>
+    <h1 class="head">E-comerce Payment GateWay</h1>
+    <br><br>
+    <h2>(MASTER / VISA) CARD PAYMENT ONLY.</h2>
+    <h4>Both Debit & Credit cards are Accepted</h4>
+    <hr>
+    <br>
+    <div class="cardform">
+        <form action="" onreset="clearHandler(event)" onsubmit="subHandler(event)">
+
+            <label for="">Enter Name :</label>
+            <input type="text" name="pName" id="pName" placeholder="User Name" required>
+            <br><br>
+            <label for="">Enter Email ID :</label>
+            <input type="text" name="myEmail" id="myEmail" placeholder="Emial Id" required>
+            <br><br>
+            <label for="">Enter Phone No. :</label>
+            <input type="tel" name="myPhone" maxlength="10" id="myPhone" placeholder="Ph No." required>
+            <br><br>
+            <label for="">Enter Card No. :</label>
+            <input type="text" name="card" id="num" placeholder="Credit/Debit card" required>
+            <br><br>
+            <label for="">Exp Date :</label>
+            <input id="expMonth" maxlength="2" pattern="[0-9]*" placeholder="MM" type="text" required>
+            <input id="expYear" maxlength="4" pattern="[0-9]*" placeholder="YYYY" type="text" required>
+            <br><br>
+            <label for="">Enter CVV :</label>
+            <input type="text" name="card" id="cvv" maxlength="3" placeholder="CVV" required>
+            <br><br>
+            <hr><br>
+            <input type="reset" name="reset" value="reset" class="btn">
+            <input type="submit" value="submit" class="btn">
+        </form>
+    </div>
+    <div class="cardimg">
+        <img src="./assets/stock-photo-credit-card-visa-master-card-617054912.jpg" alt="cardimg">
+    </div>
+
+    <script src="./assets/card.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            padding: 10%;
+        }
+
+        .head {
+            position: relative;
+            text-align: center;
+            margin-top: -2em;
+            color: blue;
+        }
+
+        .btn {
+            border: 2px solid black;
+            background: black;
+            color: white;
+            font-weight: 600;
+            font-size: 15px;
+            height: 30px;
+            padding: 5px;
+            border-radius: 7px;
+            margin-left: 1%;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            border: 2px solid black;
+            background: white;
+            color: black;
+            font-weight: 600;
+            font-size: 15px;
+            height: 30px;
+            padding: 10px 10px 25px 12px;
+            border-radius: 7px;
+            margin-left: 1%;
+            cursor: pointer;
+        }
+
+        label {
+            font-weight: 600;
+            color: rgb(84, 85, 85);
+        }
+
+        input {
+            border: 3px solid orange;
+            height: 20px;
+            background-color: azure;
+        }
+
+        #expMonth {
+            max-width: 25px;
+            border-right: none;
+        }
+
+        #expYear {
+            max-width: 35px;
+            border-left: none;
+            margin-left: -5px;
+        }
+
+        #cvv {
+            max-width: 60px;
+        }
+
+        .cardimg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -2;
+            opacity: 0.3;
+        }
